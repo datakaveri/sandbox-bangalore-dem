@@ -1,0 +1,42 @@
+{
+  "id": "datakaveri.org/f7e044eee8122b5c87dce6e7ad64f3266afa41dc/cat-sandbox.iudx.org.in/bangalore-dem",
+      "accessPolicy": "OPEN",
+      "dataSample": {
+      },
+      "itemStatus": "ACTIVE",
+      "type": [
+        "iudx:ResourceGroup",
+        "iudx:DigitalElevationModel"
+      ],
+      "provider": "datakaveri.org/f7e044eee8122b5c87dce6e7ad64f3266afa41dc",
+      "iudxResourceAPIs": [
+        "ATTR",
+        "TEMPORAL"
+      ],
+      "location": {
+        "address": "Bangalore",
+        "type": "Place"
+      },
+      "@context": "https://voc.iudx.org.in/",
+      "tags": [
+        "digital elevation model"
+      ],
+      "name": "bangalore-dem",
+      "description": "In this notebook, we illustrate the use of GSX and the OGC Coverages api to download raster files for Digital Elevation Model of an area around Bangalore. In addition, we illustrate the use of an open source library to handle multi dimensional raster bands and display the elevation model. \n\n <br/>  <img src=\"https://raw.githubusercontent.com/datakaveri/sandbox-bangalore-dem/main/docs/dem1.png\"",
+      "resourceServer": "datakaveri.org/f7e044eee8122b5c87dce6e7ad64f3266afa41dc/cat-sandbox.iudx.org.in",
+      "resourceType": "MESSAGESTREAM",
+      "label": "Digital Elevation Model of Bangalore through GSX",
+      "dataDescriptor": {
+      },
+      "repositoryURL": "https://github.com/datakaveri/sandbox-bangalore-dem.git",
+      "referenceResources": [
+        {
+          "id": "datakaveri.org/254ee63ac91d837f550784d6512990e23d30549b/soi.iudx.io/digital_elevation_bengaluru",
+          "name": "Digital Elevation Models of Bangalore",
+          "description": "OGC Coverage Resource for Bangalore DEM",
+          "additionalInfoURL": "https://catalogue.gsx.iudx.io/dataset/datakaveri.org-254ee63ac91d837f550784d6512990e23d30549b-soi.iudx.io-digital_elevation_bengaluru"
+        }
+      ],
+      "itemCreatedAt": "2021-07-05T12:05:26+0530",
+      "instance": "sandbox"
+}
